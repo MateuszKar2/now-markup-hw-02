@@ -1,0 +1,163 @@
+.header__position {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 215px;
+}
+
+.header__logo-appearance {
+  font-family: Releway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: #212121;
+}
+
+.header__pages-position {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 96px;
+  gap: 43px;
+}
+
+
+.header__pages-appearance {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #212121;
+}
+.header__contacts-position {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 371px;
+  gap: 50px;
+}
+
+.header__contacts-apperarance {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #757575;
+}
+
+.banner {
+  background-color: #2F303A;
+  height: 600px;
+  width: 1600px;
+}
+
+.banner__writing {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 200px;
+  padding-left: 452px;
+  padding-right: 452px;
+  padding-bottom: 40px;
+  margin: 0;
+
+
+}
+.banner__button-appearance {
+   background-color: #2196f3;
+   height: 50px;
+   width: 200px;
+   margin-left: 700px;
+
+}
+
+.banner__button-text {
+  background-color: #2196f3;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+  border: none;
+  padding-left: 42px;
+  padding-top: 10px;
+
+}
+.text {
+  margin-left: 215px;
+  margin-right: 215px;
+}
+
+.text__position {
+  display: flex;
+  flex-direction: row;
+}
+
+.text__title-appearance {
+  color: #212121;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+.text__appearance {
+  color: #757575;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  width: 270px;
+  height: 75px;
+  
+
+}
+
+.picture__text {
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  font-size: 42px;
+  color: #212121;
+}
+
+.picture__position {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-left: 215px;
+}
+ 
+.team {
+
+}
+
+.team__title {
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  font-size: 42px;
+  color: #212121;
+  
+}
+
+.team__picture {
+
+}
+
