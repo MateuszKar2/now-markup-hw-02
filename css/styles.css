@@ -4,6 +4,7 @@
   --verygrey: #2F303A;
   --white: #fff;
   --blue: #2196f3;
+  --verywhite: #f5f4fa;
 }
 
   body {
@@ -105,6 +106,7 @@
    width: 200px;
    margin-left: 700px;
    border-radius: 4px;
+   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.15);
 
 }
 
@@ -117,11 +119,11 @@
   line-height: 30px;
   color: var(--white);
   border: none;
-  padding: 10px;
-  border: 4px;
-  
-
+  margin-left: 42px;
+  margin-top: 10px;
+  border: 0;
 }
+
 .text {
   margin-left: 215px;
   margin-right: 215px;
@@ -154,13 +156,10 @@
   line-height: 24px;
   width: 270px;
   height: 75px;
-   
-  
-
 }
 
 .picture__text {
-  text-align: center;
+  padding-left: 624px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
@@ -183,19 +182,16 @@
   margin: 0px;
   gap: 30px;
   list-style-type: none;
-   
-
 }
 
 .team__title {
-  text-align: center;
+  padding-left: 695px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   font-size: 42px;
-  color: var(--darkgrey);
-  
+  color: var(--darkgrey); 
 }
 
 .team__name {
@@ -217,11 +213,7 @@
   line-height: 19px;
   color: var(--grey);
 }
-
-/*.team__picture {
-
-}*/
-
+ 
 .footer {
   background-color: var(--verygrey);
   padding-left: 215px;
@@ -258,4 +250,44 @@
   font-size: 26px;
   line-height: 31px;
   color: var(--white)
+}
+
+.portfolio__list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  padding-left: 532px;
+}
+
+.portfolio__list-button {
+  padding-left: 22px;
+  padding-right: 22px;
+  height: 38px;
+  margin-right: 8px;
+  background-color: var(--verywhite);
+  border-radius: 4px;
+  box-shadow: inset 0 3px 1px rgba(0, 0, 0, 0.1),0 1px 2px rgba(0, 0, 0, 0.08),0 0 2px rgba(0, 0, 0, 0.12);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: Roboto;
+  font-style: normal;
+  letter-spacing: 0.03em;
+  color: var(--darkgrey);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.portfolio__list-button:hover {
+  background-color: var(--blue);
+}
+
+.portfolio__picture {
+  list-style-type: none;
+  display: flex;
+  flex-basis: calc((100% - 60px) / 3);
+  gap: 30px;
+  padding-left: 215px;
+
 }
